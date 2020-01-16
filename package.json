@@ -1,0 +1,19 @@
+{
+  "name": "redis_hadoop_lock",
+  "version": "1.0.0",
+  "description": "node 实现的redis 分布式锁, 解决分布式系统中读写一致",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "redis",
+    "lock"
+  ],
+  "author": "zjf",
+  "license": "ISC",
+  "dependencies": {
+    "redis": "^2.8.0"
+  }
+}
